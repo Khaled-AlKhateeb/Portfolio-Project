@@ -1,50 +1,35 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Project Name/ Portfolio Project
 
-# Project Name
-
-> Description the project.
+A simple start-up Portfolio Project
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML/ CSS/ Javascript
+- Figma/ Linters
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+on terminal type the following command:
+git clone https://github.com/Khaled-AlKhateeb/Portfolio-Project.git
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
+Basic HTML/CSS/Javascript
 ### Usage
-
+Website
 ### Run tests
-
+Linters
 ### Deployment
-
+Google Chrome
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author1**Khaled Al-Khateeb
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Khaled-AlKhateeb)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/khaled-al-khateeb-3a1013247)
 
 👤 **Author2**
 
