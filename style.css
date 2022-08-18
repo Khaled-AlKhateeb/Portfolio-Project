@@ -48,6 +48,7 @@ body {
 
 .primaryText {
   font-family: "Crete Round", serif;
+  margin: 0;
   width: 327px;
   height: 124px;
   font-weight: 400;
@@ -72,6 +73,7 @@ body {
 .description {
   width: 327px;
   height: 123px;
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
