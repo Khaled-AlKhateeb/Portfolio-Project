@@ -1,0 +1,100 @@
+:root {
+  --primary: #3c3a39;
+  --white: #fff;
+  --dark: #1c1a19;
+  --orange: #ff6b00;
+}
+
+body {
+  margin: 0;
+}
+
+.toolBar {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  height: 48px;
+}
+
+.name {
+  text-decoration: none;
+  width: 77px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white);
+  margin-left: 24px;
+  flex: 2;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.tlbrBtn {
+  background-color: var(--primary);
+  border: none;
+  margin-right: 32px;
+}
+
+.headline {
+  background-image: url(Assets/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  gap: 12px;
+  height: 590px;
+}
+
+.primaryText {
+  font-family: "Crete Round", serif;
+  margin: 0;
+  width: 327px;
+  height: 124px;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: var(--orange);
+}
+
+.supportText {
+  width: 327px;
+  height: 27px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+.description {
+  width: 327px;
+  height: 123px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  padding: 0;
+}
+
+.sMItems {
+  list-style: none;
+  border: none;
+  background-color: var(--dark);
+  width: 40px;
+  height: 40px;
+}

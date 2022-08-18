@@ -1,11 +1,11 @@
-# Project Name/ Portfolio Project
+# Portfolio Project
 
-A simple start-up Portfolio Project
+A simple mobile start-up Portfolio Project
 
 
 ## Built With
 
-- HTML/ CSS/ Javascript
+- HTML/ CSS
 - Figma/ Linters
 
 ## Getting Started
@@ -15,13 +15,13 @@ on terminal type the following command:
 git clone https://github.com/Khaled-AlKhateeb/Portfolio-Project.git
 
 ### Prerequisites
-Basic HTML/CSS/Javascript
+HTML/CSS
 ### Usage
-Website
+Mobile Website
 ### Run tests
 Linters
 ### Deployment
-Google Chrome
+Mobile Browser
 
 
 ## Authors
@@ -31,17 +31,11 @@ Google Chrome
 - GitHub: [@githubhandle](https://github.com/Khaled-AlKhateeb)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/khaled-al-khateeb-3a1013247)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Khaled-AlKhateeb/Portfolio-Project/issues).
 
 ## Show your support
 
@@ -49,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Ali Jandoubi & Hammas for reviewing my code.
 
 ## 📝 License
 
