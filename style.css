@@ -13,11 +13,11 @@ body {
   display: flex;
   align-items: center;
   background-color: var(--primary);
-  width: 375px;
   height: 48px;
 }
 
 .name {
+  text-decoration: none;
   width: 77px;
   height: 24px;
   font-weight: 700;
@@ -37,13 +37,15 @@ body {
 }
 
 .headline {
+  background-image: url(Assets/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
   background-color: var(--dark);
   display: flex;
   flex-direction: column;
   padding: 120px 24px;
   gap: 12px;
   height: 590px;
-  width: 375px;
 }
 
 .primaryText {
@@ -86,16 +88,13 @@ body {
   align-items: center;
   width: 200px;
   height: 40px;
-  gap: 15px;
+  padding: 0;
 }
 
-.sMBtn {
+.sMItems {
+  list-style: none;
   border: none;
   background-color: var(--dark);
-}
-
-.illustration {
-  position: absolute;
-  right: 0;
-  top: 317px;
+  width: 40px;
+  height: 40px;
 }
