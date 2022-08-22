@@ -225,18 +225,18 @@ body {
 }
 
 .codeBtnContainer {
-  display: flex;
-  justify-content: space-around;
   gap: 10px;
   padding-left: 16px;
 }
 
 .codeBtn {
+  padding-top: 15px;
+  text-align: center;
+  margin-right: 10px;
   width: 93px;
   height: 40px;
   list-style: none;
-  display: flex;
-  justify-content: center;
+  float: left;
   align-items: center;
   background-color: var(--orange);
   color: var(--white);
