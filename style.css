@@ -140,51 +140,41 @@ body {
 
 .firstF {
   background:
-    linear-gradient(
-      180.45deg,
+    linear-gradient(180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+      rgba(38, 38, 38, 0.9) 61.94%),
     url(Assets/backgroundA.jpg);
 }
 
 .secondF {
   background:
-    linear-gradient(
-      180.45deg,
+    linear-gradient(180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+      rgba(38, 38, 38, 0.9) 61.94%),
     url(Assets/backgroundB.jpg);
 }
 
 .thirdF {
   background:
-    linear-gradient(
-      180.45deg,
+    linear-gradient(180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+      rgba(38, 38, 38, 0.9) 61.94%),
     url(Assets/backgroundC.jpg);
 }
 
 .fourthF {
   background:
-    linear-gradient(
-      180.45deg,
+    linear-gradient(180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+      rgba(38, 38, 38, 0.9) 61.94%),
     url(Assets/backgroundD.jpg);
 }
 
 .fifthF {
   background:
-    linear-gradient(
-      180.45deg,
+    linear-gradient(180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+      rgba(38, 38, 38, 0.9) 61.94%),
     url(Assets/backgroundE.jpg);
 }
 
@@ -365,4 +355,49 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  border-bottom: 1px solid var(--orange);
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  margin-bottom: 58px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
