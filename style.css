@@ -140,41 +140,51 @@ body {
 
 .firstF {
   background:
-    linear-gradient(180.45deg,
+    linear-gradient(
+      180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(Assets/backgroundA.jpg);
 }
 
 .secondF {
   background:
-    linear-gradient(180.45deg,
+    linear-gradient(
+      180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(Assets/backgroundB.jpg);
 }
 
 .thirdF {
   background:
-    linear-gradient(180.45deg,
+    linear-gradient(
+      180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(Assets/backgroundC.jpg);
 }
 
 .fourthF {
   background:
-    linear-gradient(180.45deg,
+    linear-gradient(
+      180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(Assets/backgroundD.jpg);
 }
 
 .fifthF {
   background:
-    linear-gradient(180.45deg,
+    linear-gradient(
+      180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(Assets/backgroundE.jpg);
 }
 
@@ -368,7 +378,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   font-family: "Inter", serif;
   font-style: normal;
@@ -376,7 +386,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 58px;
 }
 
@@ -384,13 +394,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
 }
 
 .input {
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
