@@ -289,7 +289,7 @@ body {
   color: var(--white);
 }
 
-.resumeBtn {
+.btn {
   background-color: var(--orange);
   color: var(--white);
   width: 161px;
