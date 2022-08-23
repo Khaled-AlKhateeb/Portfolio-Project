@@ -247,6 +247,18 @@ body {
   line-height: 20px;
 }
 
+.btn {
+  background-color: var(--orange);
+  color: var(--white);
+  width: 161px;
+  height: 48px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+}
+
 .codeBtn:hover,
 .action:hover,
 .btn:hover {
@@ -289,18 +301,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: var(--white);
-}
-
-.btn {
-  background-color: var(--orange);
-  color: var(--white);
-  width: 161px;
-  height: 48px;
-  font-family: "Inter", serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  border: none;
 }
 
 .skills {
