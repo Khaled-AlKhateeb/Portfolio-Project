@@ -5,8 +5,9 @@ A simple mobile start-up Portfolio Project
 
 ## Built With
 
-- HTML/ CSS
-- Figma/ Linters
+- Languages: HTML/ CSS
+- Framworkd: Figma/ Linters
+- Technologies: Media Queries 
 
 ## Getting Started
 
