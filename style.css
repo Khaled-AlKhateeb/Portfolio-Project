@@ -273,14 +273,14 @@ body {
   border: none;
 }
 
-.codeBtn:hover,
+.code-btn:hover,
 .action:hover,
 .btn:hover {
   background-color: var(--offwhite);
   color: var(--orange);
 }
 
-.codeBtn:disabled,
+.code-btn:disabled,
 .action:disabled,
 .btn:disabled {
   background-color: var(--disabled);
