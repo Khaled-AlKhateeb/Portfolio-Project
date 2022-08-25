@@ -39,14 +39,14 @@ body {
   font-style: normal;
 }
 
+.menu-btn {
+  display: none;
+}
+
 .toolbar-btn {
   background-color: var(--primary);
   border: none;
   margin-right: 32px;
-}
-
-.menu-btn {
-  display: none;
 }
 
 .headline {
@@ -560,20 +560,6 @@ body {
 
   .action {
     display: none;
-  }
-
-  .codeBtn:hover,
-  .action:hover,
-  .btn:hover {
-    background-color: var(--offwhite);
-    color: var(--orange);
-  }
-
-  .codeBtn:disabled,
-  .action:disabled,
-  .btn:disabled {
-    background-color: var(--disabled);
-    color: var(--disabledText);
   }
 
   .frame:hover .action {
