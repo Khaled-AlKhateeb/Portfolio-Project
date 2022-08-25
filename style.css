@@ -387,7 +387,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 120px 24px;
-  border-bottom: 1px solid var(--orange);
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .contact-text {
@@ -415,6 +415,7 @@ body {
 }
 
 .input {
+  padding: 10px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
   font-family: "Inter", serif;
@@ -426,6 +427,7 @@ body {
   align-items: center;
   width: 100%;
   justify-content: center;
+  height: 50px;
 }
 
 .footer-media {
@@ -433,6 +435,11 @@ body {
   justify-content: center;
   gap: 20px;
   list-style: none;
+}
+
+.textarea {
+  height: 120px;
+  background-color: #fbf8f7;
 }
 
 @media screen and (min-device-width: 768px) {
@@ -629,12 +636,4 @@ body {
     padding: 0;
   }
 
-  .input {
-    height: 50px;
-  }
-
-  .textarea {
-    height: 120px;
-    background-color: var(--offwhite);
-  }
 }
