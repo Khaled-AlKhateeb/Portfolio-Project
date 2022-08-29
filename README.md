@@ -22,6 +22,7 @@ Responsive Portfolio Website
 ### Run tests
 Linters
 ### Deployment
+Mobile Browser
 https://khaled-alkhateeb.github.io/Portfolio-Project/
 
 
