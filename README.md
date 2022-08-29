@@ -18,11 +18,11 @@ git clone https://github.com/Khaled-AlKhateeb/Portfolio-Project.git
 ### Prerequisites
 HTML/CSS
 ### Usage
-Mobile Website
+Responsive Portfolio Website
 ### Run tests
 Linters
 ### Deployment
-Mobile Browser
+https://khaled-alkhateeb.github.io/Portfolio-Project/
 
 
 ## Authors
