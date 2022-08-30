@@ -616,7 +616,8 @@ body {
     padding: 130px 140px;
     background-image: url(Assets/illustration-about.png);
     background-size: 600px;
-    background-position: right -150px top 220px;
+    background-position: top 20% right;
+    background-repeat: no-repeat;
   }
 
   .aboutme-title {
