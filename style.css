@@ -43,6 +43,30 @@ body {
   display: none;
 }
 
+.opened-menu {
+  display: none;
+}
+
+.content-menu {
+  padding: 100px 24px;
+  border-bottom: 1px solid var(--disabledText);
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 44px;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  list-style: none;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.openmenu-items {
+  padding: 15px;
+  border-bottom: 1px solid var(--disabledText);
+}
+
 .toolbar-btn {
   background-color: var(--primary);
   border: none;
@@ -459,6 +483,10 @@ body {
 
   .toolbar-btn {
     display: none;
+  }
+
+  .open-menu {
+    display:none
   }
 
   .menu-btn {
