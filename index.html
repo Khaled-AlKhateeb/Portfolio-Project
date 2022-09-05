@@ -41,16 +41,19 @@
           <li>Contact</li>
           <li><img src="Assets/Disabled.png" alt="portfolio massage icon" /></li>
         </ul>
-        <button onclick="menuOpen()" class="toolbar-btn" type="button">
-          <img src="Assets/Icon-Menu.png" alt="menu icon" />
-        </button>
+          <button onclick="menuOpen()" class="toolbar-btn" type="button">
+            <img src="Assets/Icon-Menu.png" alt="menu icon" />
+          </button>
       </nav>
     </header>
     <div id="menuOpen" class="opened-menu">
+      <div class="position-btn">
+        <button onclick="menuClose()" id="closeBtn" class="close-menu" type="button"><img src="Assets/Icon.png" alt="close icon"></button>
+      </div>
       <ul class="content-menu">
-        <li class="openmenu-items"><strong>Portfolio</strong></li>
-        <li class="openmenu-items"><strong>About</strong></li>
-        <li class="openmenu-items"><strong>Contact</strong></li>
+        <li class="openmenu-items"><a href="#portfolio"><strong>Portfolio</strong></a></li>
+        <li class="openmenu-items"><a href="#aboutMe"><strong>About</strong></a></li>
+        <li class="openmenu-items"><a href="#contact"><strong>Contact</strong></a></li>
       </ul>
     </div>
     <section class="headline">
@@ -81,7 +84,7 @@
         </li>
       </ul>
     </section>
-    <section class="works">
+    <section id="portfolio" class="works">
       <div class="works-title-container">
         <h2 class="works-title">My Recent Works</h2>
         <div class="line"></div>
@@ -167,7 +170,7 @@
         </li>
       </ul>
     </section>
-    <section class="aboutme">
+    <section id="aboutMe" class="aboutme">
       <header class="aboutme-header">
         <h2 class="aboutme-title">About me</h2>
         <p class="aboutme-text">
@@ -218,7 +221,7 @@
         </li>
       </ul>
     </section>
-    <section class="contact-form">
+    <section id="contact" class="contact-form">
       <h2 class="contact-text">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
