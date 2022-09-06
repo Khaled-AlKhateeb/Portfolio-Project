@@ -1,15 +1,14 @@
 const toolbarBtn = document.getElementById('toolbar-btn');
-
 const menu = document.getElementById('menuOpen');
-const toolbar = document.getElementById('navigation');
+const mainContainer = document.getElementById('mainContainer');
 const cancelBtn = document.getElementById('closeBtn');
 
 function menuOpen() {
     menu.style.display = "flex";
-    toolbar.style.display = "none";
+    mainContainer.style.display = "none";
 }
 
 function menuClose() {
     menu.style.display = "none";
-    toolbar.style.display = "flex";
+    mainContainer.style.display = "block";
 }
