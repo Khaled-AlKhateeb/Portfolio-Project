@@ -440,6 +440,13 @@ body {
   height: 50px;
 }
 
+.error-msg {
+  font-family: 'roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: red;
+}
+
 .footer-media {
   display: flex;
   justify-content: center;
