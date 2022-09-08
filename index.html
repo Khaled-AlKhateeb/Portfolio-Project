@@ -226,6 +226,7 @@
           required
         />
         <input
+          id="emailInput"
           class="input"
           type="email"
           name="email"
@@ -239,7 +240,8 @@
           placeholder="Enter text here"
           required
         ></textarea>
-        <button class="btn" type="submit">get in touch</button>
+        <button id="formSubmit" class="btn" onclick="submitForm()" type="button">get in touch</button>
+        <span id="error" class="error-msg"></span>
       </form>
     </section>
     <footer>
@@ -271,5 +273,6 @@
         </li>
       </ul>
     </footer>
+    <script src="form-validation.js"></script>
   </body>
 </html>
