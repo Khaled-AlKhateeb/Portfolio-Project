@@ -54,4 +54,4 @@ for (let i = 0; i < workCards.length; i++) {
   workCards[i].children[0].innerHTML = data[i].name;
   workCards[i].children[1].innerHTML = data[i].description;
 }
-//place cardClicked function here 
+//place cardClicked function here
