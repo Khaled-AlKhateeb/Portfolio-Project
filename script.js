@@ -122,8 +122,7 @@ function cardClicked() {
     for (let i = 0; i < 2; i++) {
       let rmvPopupButton = document.getElementById("popupButton");
       let rmvBtnIcon = document.getElementById("btnIcon");
-      rmvBtnIcon.parentNode.removeChild(rmvBtnIcon);
-      rmvPopupButton.parentNode.removeChild(rmvPopupButton);
+      
     }
   }
 
