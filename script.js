@@ -102,7 +102,7 @@ function cardClicked() {
     btnIcon.alt = "Action Icon";
     popupButton.appendChild(btnIcon);
     division.appendChild(popupButton);
-  };
+  }
 
   function removeElements() {
     let rmvClose = document.getElementById("popupCloseBtn");
@@ -153,4 +153,29 @@ function cardClicked() {
   divDesBtn.appendChild(content);
   divDesBtn.appendChild(division);
   container.appendChild(mainDiv);
+}
+
+const formData = {
+  name: null,
+  email: null,
+  text: null,
+};
+
+let nameInput = document.getElementById('nameInput');
+let emailInput = document.getElementById('emailInput');
+let areaInput = document.getElementById('areaInput');
+
+function nameStorage() {
+  formData.name = nameInput.value;
+  window.localStorage.setItem("formData", JSON.stringify(formData));
+}
+
+function emailStorage() {
+  formData.email = emailInput.value;
+  window.localStorage.setItem("formData", JSON.stringify(formData));
+}
+
+function areaStorage() {
+  formData.text = areaInput.value;
+  window.localStorage.setItem("formData", JSON.stringify(formData));
 }

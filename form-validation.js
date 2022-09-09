@@ -13,4 +13,3 @@ function submitForm() {
         error.innerHTML = "";
     }
 }
-
