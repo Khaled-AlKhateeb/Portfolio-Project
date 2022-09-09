@@ -360,14 +360,13 @@ a:visited {
   border: none;
 }
 
-.code-btn:hover,
 .action:hover,
 .btn:hover {
+  cursor: pointer;
   background-color: var(--offwhite);
   color: var(--orange);
 }
 
-.code-btn:disabled,
 .action:disabled,
 .btn:disabled {
   background-color: var(--disabled);
@@ -661,6 +660,7 @@ a:visited {
   }
 
   .frame:hover {
+    cursor: pointer;
     justify-content: flex-end;
     padding: 0;
     border: 2px solid var(--dark);
