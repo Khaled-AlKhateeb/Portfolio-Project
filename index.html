@@ -259,10 +259,12 @@
           method="POST"
         >
           <input
+            id="nameInput"
             class="input"
             type="text"
             maxlength="30"
             name="name"
+            onfocusout="nameStorage()"
             placeholder="Full Name"
             required
           />
@@ -271,17 +273,25 @@
             class="input"
             type="email"
             name="email"
+            onfocusout="emailStorage()"
             placeholder="Email address"
             required
           />
           <textarea
+            id="areaInput"
             class="input textarea"
             name="message"
             maxlength="500"
+            onfocusout="areaStorage()"
             placeholder="Enter text here"
             required
           ></textarea>
-          <button onclick="submitForm()" id="formSubmit" class="btn" type="submit">
+          <button
+            onclick="submitForm()"
+            id="formSubmit"
+            class="btn"
+            type="submit"
+          >
             get in touch
           </button>
           <span id="error" class="error-msg"></span>
