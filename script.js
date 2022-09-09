@@ -179,3 +179,14 @@ function areaStorage() {
   formData.text = areaInput.value;
   window.localStorage.setItem("formData", JSON.stringify(formData));
 }
+
+function onLoadForm() {
+  let formRetrieve = window.localStorage.getItem("formData");
+  let formFill = JSON.parse(formRetrieve); 
+
+  nameInput.value = formFill.name;
+  emailInput.value = formFill.email;
+  areaInput.value = formFill.text
+}
+
+onLoadForm();
