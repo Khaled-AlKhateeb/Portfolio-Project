@@ -9,5 +9,6 @@ function submitForm() {
         error.innerHTML = "Please enter a valid email address!";
     } else {
         submit.type = "submit";
+        error.innerHTML = "";
     }
 }
