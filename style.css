@@ -442,6 +442,13 @@ a:visited {
   list-style: none;
 }
 
+.error-msg {
+  font-family: 'roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: red;
+}
+
 .division {
   display: flex;
   align-items: center;

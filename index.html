@@ -45,7 +45,9 @@
       </div>
       <ul class="content-menu">
         <li class="openmenu-items">
-          <a href="#portfolio" onclick="menuClose()"><strong>Portfolio</strong></a>
+          <a href="#portfolio" onclick="menuClose()"
+            ><strong>Portfolio</strong></a
+          >
         </li>
         <li class="openmenu-items">
           <a href="#aboutMe" onclick="menuClose()"><strong>About</strong></a>
@@ -55,9 +57,7 @@
         </li>
       </ul>
     </div>
-    <div id="popUpCard" class="popup">
-
-    </div>
+    <div id="popUpCard" class="popup"></div>
     <div id="mainContainer" class="main-container">
       <header id="navigation" class="toolbar">
         <a href="#" class="name">Khaled K</a>
@@ -121,71 +121,77 @@
           <div class="line"></div>
         </div>
         <ul class="frames">
-          <li id="frameOne" class="frame frame-one" >
+          <li id="frameOne" class="frame frame-one">
             <h3 id="titlePost" class="title-post"></h3>
-            <p id="titlePostText" class="title-post-text">
-            </p>
+            <p id="titlePostText" class="title-post-text"></p>
             <ul class="code-btn-container">
               <li class="code-btn">HTML</li>
               <li class="code-btn">CSS</li>
               <li class="code-btn">Javascript</li>
             </ul>
-            <button onclick="cardClicked()" class="action" type="button">See Project</button>
+            <button onclick="cardClicked()" class="action" type="button">
+              See Project
+            </button>
           </li>
           <li id="frameTwo" class="frame frame-two">
             <h3 class="title-post"></h3>
-            <p class="title-post-text">
-            </p>
+            <p class="title-post-text"></p>
             <ul class="code-btn-container">
               <li class="code-btn">HTML</li>
               <li class="code-btn">CSS</li>
               <li class="code-btn">Javascript</li>
             </ul>
-            <button onclick="cardClicked()" class="action" type="button">See Project</button>
+            <button onclick="cardClicked()" class="action" type="button">
+              See Project
+            </button>
           </li>
           <li id="frameThree" class="frame frame-three">
             <h3 class="title-post"></h3>
-            <p class="title-post-text">
-            </p>
+            <p class="title-post-text"></p>
             <ul class="code-btn-container">
               <li class="code-btn">HTML</li>
               <li class="code-btn">CSS</li>
               <li class="code-btn">Javascript</li>
             </ul>
-            <button onclick="cardClicked()" class="action" type="button">See Project</button>
+            <button onclick="cardClicked()" class="action" type="button">
+              See Project
+            </button>
           </li>
           <li id="frameFour" class="frame frame-four">
             <h3 class="title-post"></h3>
-            <p class="title-post-text">
-            </p>
+            <p class="title-post-text"></p>
             <ul class="code-btn-container">
               <li class="code-btn">HTML</li>
               <li class="code-btn">CSS</li>
               <li class="code-btn">Javascript</li>
             </ul>
-            <button onclick="cardClicked()" class="action" type="button">See Project</button>
+            <button onclick="cardClicked()" class="action" type="button">
+              See Project
+            </button>
           </li>
           <li id="frameFive" class="frame frame-five">
             <h3 class="title-post"></h3>
-            <p class="title-post-text">
-            </p>
+            <p class="title-post-text"></p>
             <ul class="code-btn-container">
               <li class="code-btn">HTML</li>
               <li class="code-btn">CSS</li>
               <li class="code-btn">Javascript</li>
             </ul>
-            <button onclick="cardClicked()" class="action" type="button">See Project</button>
+            <button onclick="cardClicked()" class="action" type="button">
+              See Project
+            </button>
           </li>
           <li id="frameSix" class="frame frame-six">
             <h3 class="title-post"></h3>
-            <p class="title-post-text">
-            </p>
+            <p class="title-post-text"></p>
             <ul class="code-btn-container">
               <li class="code-btn">HTML</li>
               <li class="code-btn">CSS</li>
               <li class="code-btn">Javascript</li>
             </ul>
-            <button onclick="cardClicked()" class="action" type="button">See Project</button>
+            <button onclick="cardClicked()" class="action" type="button">
+              See Project
+            </button>
           </li>
         </ul>
       </section>
@@ -261,6 +267,7 @@
             required
           />
           <input
+            id="emailInput"
             class="input"
             type="email"
             name="email"
@@ -274,7 +281,10 @@
             placeholder="Enter text here"
             required
           ></textarea>
-          <button class="btn" type="submit">get in touch</button>
+          <button onclick="submitForm()" id="formSubmit" class="btn" type="submit">
+            get in touch
+          </button>
+          <span id="error" class="error-msg"></span>
         </form>
       </section>
       <footer>
