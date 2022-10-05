@@ -58,5 +58,15 @@ const data = [
     live: "https://khaled-alkhateeb.github.io/Portfolio-Project/",
     source: "https://github.com/Khaled-AlKhateeb/tictactoe",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ducimus aliquid excepturi sequi nemo neque quod officia pariatur cum, ea alias modi totam odio, odit doloribus. Assumenda eum facere sapiente distinctio ipsum fugiat sed animi perferendis obcaecati vitae labore maxime quos nisi, mollitia culpa perspiciatis! Sed reiciendis hic praesentium numquam.",
+  },
+  {
+    id: 6,
+    name: 'motortech',
+    description: 'showeing the latest motor technologies',
+    thumbnails: 'Assets/motortech-img1.png',
+    technologies: ['html', 'css', 'javascript'],
+    live: 'https://khaled-alkhateeb.github.io/motor-tech/index.html',
+    source: 'https://github.com/Khaled-AlKhateeb/motor-tech',
+    content: 'Technology served on Wheels, 2022 motor tech show brings you what is best for your wheels',
   }
 ]
