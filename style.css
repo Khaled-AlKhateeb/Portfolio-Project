@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 a,
 a:visited {
   text-decoration: none;
@@ -105,9 +109,8 @@ a:visited {
 
 .headline {
   width: 100%;
-  background-image: url(Assets/Illustration.png);
+  background-image: url(Assets/cyberpunk-bg.png);
   background-repeat: no-repeat;
-  background-position: right bottom -45px;
   background-color: var(--dark);
   display: flex;
   flex-direction: column;
@@ -117,15 +120,15 @@ a:visited {
 }
 
 .primary-text {
-  font-family: "Crete Round", serif;
+  font-family: 'cyberway_ridersregular';
   margin: 0;
   width: 327px;
   height: 124px;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 5rem;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: var(--orange);
+  color: #FFF01F;
 }
 
 .support-text {
@@ -562,15 +565,24 @@ a:visited {
   }
 
   .headline {
-    background-image: url(Assets/Illustration-header.png);
+    background-image: url(Assets/cyberpunk-bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 50%;
+    background-size: cover;
+    background-position: bottom;
     flex-direction: row;
   }
-
+  
   .primary {
     order: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+  }
+
+  .primary-text {
+    width: auto;
   }
 
   .support-text {
