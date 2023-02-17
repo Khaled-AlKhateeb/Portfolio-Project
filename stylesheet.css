@@ -3,9 +3,33 @@
 
 
 @font-face {
+    font-family: 'downlinkregular';
+    src: url('downlink-gav1-webfont.woff2') format('woff2'),
+         url('downlink-gav1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
     font-family: 'cyberway_ridersregular';
     src: url('cyberwayriders-lg97d-webfont.woff2') format('woff2'),
          url('cyberwayriders-lg97d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cyberverseregular';
+    src: url('cyberverse-webfont.woff2') format('woff2'),
+         url('cyberverse-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
