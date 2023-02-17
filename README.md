@@ -15,6 +15,8 @@ To get a local copy up and running follow these simple example steps.
 on terminal type the following command:
 git clone https://github.com/Khaled-AlKhateeb/Portfolio-Project.git
 
+### Live version
+visit this [link](https://khaled-alkhateeb.github.io/Portfolio-Project/) for the live demo.
 ### Prerequisites
 HTML/CSS
 ### Usage
